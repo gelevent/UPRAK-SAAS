@@ -21,7 +21,7 @@ const data = [
   {
     name: "Grade 12",
     count: 20,
-    fill: "#FF8C94",
+    fill: "#cfceff",
   },
 ];
 
@@ -60,17 +60,17 @@ const CountChart = () => {
         <div className="flex flex-col gap-1 items-center">
           <div className="w-5 h-5 bg-lamaYellow rounded-full" />
           <h1 className="font-bold">23</h1>
-          <h2 className="text-xs text-gray-300">Grade 10</h2>
+          <h2 className="text-xs text-gray-500">Grade 10</h2>
         </div>
         <div className="flex flex-col gap-1 items-center">
           <div className="w-5 h-5 bg-lamaSky rounded-full" />
           <h1 className="font-bold">24</h1>
-          <h2 className="text-xs text-gray-300">Grade 11</h2>
+          <h2 className="text-xs text-gray-500">Grade 11</h2>
         </div>
         <div className="flex flex-col gap-1 items-center">
-          <div className="w-5 h-5 bg-[#FF8C94] rounded-full" />
+          <div className="w-5 h-5 bg-[#cfceff] rounded-full" />
           <h1 className="font-bold">20</h1>
-          <h2 className="text-xs text-gray-300">Grade 12</h2>
+          <h2 className="text-xs text-gray-500">Grade 12</h2>
         </div>
       </div>
     </div>
